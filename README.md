@@ -1,2 +1,30 @@
-# BankNoteAuthentication
-BankNoteAuthentication
+## BankNoteAuthentication
+ - This repository contain classification model for banknote authentication.
+ - Flask api to access from browser.
+ - Flagger UI you can access http://localhost:5000/apidocs and visualize and interact with your API resources.
+
+## Dataset 
+ - Dataset taken from [UCI Repository](https://archive.ics.uci.edu/ml/datasets/banknote+authentication)
+### Data Set Information:
+
+- Data were extracted from images that were taken from genuine and forged banknote-like specimens. For digitization, an industrial camera usually used for print inspection was used. The final images have 400x 400 pixels. Due to the object lens and distance to the investigated object gray-scale pictures with a resolution of about 660 dpi were gained. Wavelet Transform tool were used to extract features from images.
+
+#### Attribute Information:
+
+1. variance of Wavelet Transformed image (continuous)
+2. skewness of Wavelet Transformed image (continuous)
+3. curtosis of Wavelet Transformed image (continuous)
+4. entropy of image (continuous)
+5. class (integer)
+
+#### Flagger UI
+- Api for Single Prediction
+ ![LCO](https://github.com/Avishek2020/BankNoteAuthentication/blob/master/images/screen2.png)
+ 
+ -Api for Prediction from File
+ ![LCO](https://raw.githubusercontent.com/Avishek2020/BankNoteAuthentication/master/images/screen3.png)
+
+#### References:
+- [UCI Dua, D. and Graff, C. (2019). UCI Machine Learning Repository Irvine, CA: University of California, School of Information and Computer Science.](http://archive.ics.uci.edu/ml)
+- [Flagger](https://github.com/flasgger/flasgger)
+
